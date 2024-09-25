@@ -11,11 +11,11 @@
   
         <div class="col-12 col-md-5 offset-md-3 mb-3">
           <form>
-            <h5 class="mb-4">Iscriviti alla nostra newsletter</h5>
+            <h5 class="mb-4">Iscriviti alla nostra <span>newsletter</span></h5>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <button class="fw-bolder me-2" type="button">Iscriviti</button>
               <label for="newsletter1" class="visually-hidden">Email address</label>
               <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-warning fw-bolder" type="button">Iscriviti</button>
             </div>
           </form>
         </div>

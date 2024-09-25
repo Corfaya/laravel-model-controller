@@ -1,15 +1,31 @@
 footer {
     h5 {
-        color: #F0AC54;
+        span {
+            color: #F0AC54;
+        }
+
     }
-    
+
     ul {
         a.nav-link {
             color: white;
             transition: all 0.5s;
+
             &:hover {
                 color: #F0AC54;
             }
+        }
+    }
+
+    button {
+        background-color: #F0AC54;
+        border: none;
+        border-radius: 8px;
+        padding: 10px 12px;
+        transition: all 0.5s;
+        &:hover {
+            background-color: #f0b76c;
+            transform: scale(1.1);
         }
     }
 }
