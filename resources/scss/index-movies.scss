@@ -1,0 +1,19 @@
+.card {
+    min-height: 100%;
+    cursor: pointer;
+    transition: all 0.5s;
+    &:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+    .card-body {
+        h4.card-title {
+            color:#2c2c2c;
+        }
+        .card-text {
+            span {
+                color:#F0AC54;
+            }
+        }
+    }
+}
