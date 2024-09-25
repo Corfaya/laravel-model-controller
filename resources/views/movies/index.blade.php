@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-    benvenuti
+    CARDS dei film
 @endsection
